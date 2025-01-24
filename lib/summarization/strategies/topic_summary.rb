@@ -44,7 +44,7 @@ module DiscourseAi
             - Only include the enhanced summary, without any additional commentary.
             - Understand and generate Discourse forum Markdown; including links, _italics_, **bold**.
             - Maintain the original language of the text being summarized.
-            - Use Mandarin Chinese for the summary.
+            - 严格注意：使用简体中文进行总结！
             - Each new post is formatted as "<POST_NUMBER>) <USERNAME> <MESSAGE>"
             - Cite specific noteworthy posts using the format [DESCRIPTION](#{resource_path}/POST_NUMBER)
               - Example: links to the 3rd and 6th posts by sam: sam ([#3](#{resource_path}/3), [#6](#{resource_path}/6))
@@ -86,7 +86,7 @@ module DiscourseAi
             - Only include the summary, without any additional commentary.
             - You understand and generate Discourse forum Markdown; including links, _italics_, **bold**.
             - Maintain the original language of the text being summarized.
-            - Aim for summaries to be 400 words or less.
+            - 严格注意：使用简体中文进行总结！
             - Each post is formatted as "<POST_NUMBER>) <USERNAME> <MESSAGE>"
             - Cite specific noteworthy posts using the format [DESCRIPTION](#{resource_path}/POST_NUMBER)
               - Example: links to the 3rd and 6th posts by sam: sam ([#3](#{resource_path}/3), [#6](#{resource_path}/6))
