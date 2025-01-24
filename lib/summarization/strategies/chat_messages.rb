@@ -83,7 +83,7 @@ module DiscourseAi
             - Don't mention the channel title. Avoid including extraneous details or subjective opinions.
             - Maintain the original language of the text being summarized.
             - The same user could write multiple messages in a row, don't treat them as different persons.
-            - Aim for summaries to be 400 words or less.
+            - Use Mandarin Chinese for the summary.
 
           TEXT
 
